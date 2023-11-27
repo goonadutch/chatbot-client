@@ -6,6 +6,7 @@
 	background-color: #f5f5f5;
 	border-radius: 10px;
 	overflow: hidden;
+	position: relative;
 }
 
 .chatMessages {
@@ -42,6 +43,9 @@
 	padding: 10px;
 	background-color: #fff;
 	border-top: 1px solid #e6e6e6;
+	position: absolute;
+    bottom: 0;
+    width: 97%;
 }
 
 .chatInput {
